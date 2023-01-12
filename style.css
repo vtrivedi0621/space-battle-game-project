@@ -1,0 +1,57 @@
+
+  body {
+    background-image: url('/image/ddaf71b2a7c9efb3ce3f8ca99fa9ce06.jpg');
+    background-repeat: repeat;  
+  }
+
+  h1 {
+    color: white;
+    font-size: 40px;
+    /* font-family: fantasy; */
+  }
+  
+  #main-div {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    /* display: grid; */
+    /* grid-template-rows: 1fr 2px 1fr 1fr; */
+    position: relative;
+  }
+  button {
+    font: inherit;
+    background: #ff0062;
+    border: 1px solid #ff0062;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    
+  }
+
+  textarea {
+    padding: 40px;
+  }
+  
+  #para{
+    color: white;
+    margin-left: 280px;
+    margin-top: 100px;
+    visibility: hidden;
+  }
+
+  /* .army{
+    background-color: white;
+    width: 100%;
+  } */
+  /* .action {
+    display: inline;
+  } */
+  
+
+  
+
+  
+  
