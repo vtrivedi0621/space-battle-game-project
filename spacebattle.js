@@ -80,12 +80,13 @@ const currentStatus = (hull,firepower,accuracy) => {
     
 }
 const exit1 = () => {
-    const exit = prompt('Do you want to exit the screen if yes type "Y" or no type "N"');
-    if(answer.toLowerCase =='y') {
+    let answer = prompt('Do you want to exit the screen if yes type "Y" or no type "N"');
+    if(answer.toLowerCase() =="y") {
         alert('Good Bye');
         gameExit();
-    }   
-    else {
+    }
+    if(answer.toLowerCase() =="n") {
+        alert('Welcome Again');
         gameStart();
     }
 }
@@ -148,6 +149,7 @@ const gameStart = () => {
 // }
 
 const gameExit = () => {
+    let window;
     window.close();
 }
 
