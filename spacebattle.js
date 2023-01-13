@@ -128,25 +128,8 @@ const gameStart = () => {
                 }
             }
         }
-        //winner();
+        
     }
-
-// const winner = () => {
-//     let arr = alien1.shipArr.length;
-//     if(arr===0) {
-//         winnerSoldier();
-//         setTimeout(()=>{
-//             exit1();
-//         },2000)
-//     }
-
-//     if(soldier.hull == 0) {
-//         winnerAlien();
-//         setTimeout(()=>{
-//             exit1();
-//         },2000)
-//     }
-// }
 
 const gameExit = () => {
     let window;
